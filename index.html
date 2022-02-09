@@ -171,7 +171,7 @@
 						}).then(function successCallback(response){
 							$scope.success        = true;
 							$scope.error          = false;
-							$scope.successMessage = responce.data.message;
+							$scope.successMessage = response.data.message;
 							$scope.fetchData();
 						});	
 					}
